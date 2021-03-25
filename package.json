@@ -1,0 +1,28 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maria-Belova/online-store.git"
+  },
+  "author": "Maria Belova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maria-Belova/online-store/issues"
+  },
+  "homepage": "https://github.com/Maria-Belova/online-store#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1"
+  }
+}
