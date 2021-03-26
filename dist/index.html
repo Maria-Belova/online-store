@@ -97,47 +97,305 @@
       </div>
       <!-- /. header -->
 
-        <div
-          class="row row-breadcrumbs justify-content-between align-items-center"
-        >
-          <div class="col-2 all-goods">
-            <span>Все товары</span>
-          </div>
-          <div class="col-10">
-            <nav>
-              <ul class="breadcrumbs d-flex">
-                <li class="breadcrumbs-item">
-                  <a href="#" class="breadcrumbs-link">
-                    <span class="breadcrumb-title">Главная</span>
-                  </a>
-                </li>
-                <li class="breadcrumbs-item">
-                  <a href="#" class="breadcrumbs-link">
-                    <span class="breadcrumb-slash">/</span>
-                    <span class="breadcrumb-title">Каталог</span>
-                  </a>
-                </li>
-                <li class="breadcrumbs-item">
-                  <a href="#" class="breadcrumbs-link">
-                    <span class="breadcrumb-slash">/</span>
-                    <span class="breadcrumb-title">Спальня</span>
-                  </a>
-                </li>
-                <li class="breadcrumbs-item">
-                  <a href="#" class="breadcrumbs-link">
-                    <span class="breadcrumb-slash">/</span>
-                    <span class="breadcrumb-title last">Постельное бельё</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
+      <div
+        class="row row-breadcrumbs justify-content-between align-items-center"
+      >
+        <div class="col-2 all-goods">
+          <span>Все товары</span>
+        </div>
+        <div class="col-10">
+          <nav>
+            <ul class="breadcrumbs d-flex">
+              <li class="breadcrumbs-item">
+                <a href="#" class="breadcrumbs-link">
+                  <span class="breadcrumb-title">Главная</span>
+                </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a href="#" class="breadcrumbs-link">
+                  <span class="breadcrumb-slash">/</span>
+                  <span class="breadcrumb-title">Каталог</span>
+                </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a href="#" class="breadcrumbs-link">
+                  <span class="breadcrumb-slash">/</span>
+                  <span class="breadcrumb-title">Спальня</span>
+                </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a href="#" class="breadcrumbs-link">
+                  <span class="breadcrumb-slash">/</span>
+                  <span class="breadcrumb-title last">Постельное бельё</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row content">
+        <div class="col-2 filters">
+          <div class="side-filters">
+            <div class="cloth-filter">
+              <div class="filter-title-first">Вид ткани</div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="calico"
+                  name="calico"
+                  value="yes"
+                />
+                <label for="calico">Бязь</label>
+                <span class="cloth-quantity">3</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="satin"
+                  name="satin"
+                  value="yes"
+                />
+                <label for="satin">Сатин</label>
+                <span class="cloth-quantity">9</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="poplin"
+                  name="poplin"
+                  value="yes"
+                />
+                <label for="poplin">Поплин</label>
+                <span class="cloth-quantity">1</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="ranfors"
+                  name="ranfors"
+                  value="yes"
+                />
+                <label for="ranfors">Ранфорс</label>
+                <span class="cloth-quantity">34</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="percale"
+                  name="percale"
+                  value="yes"
+                />
+                <label for="percale">Перкаль</label>
+                <span class="cloth-quantity">9</span>
+              </div>
+            </div>
+            <div class="size-filter">
+              <div class="filter-title">Размер</div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="1,5"
+                  name="1,5"
+                  value="yes"
+                />
+                <label for="1,5">1,5 сп</label>
+                <span class="cloth-quantity">3</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="2"
+                  name="2"
+                  value="yes"
+                />
+                <label for="2">2 сп</label>
+                <span class="cloth-quantity">9</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="euro"
+                  name="euro"
+                  value="yes"
+                />
+                <label for="euro">Евро</label>
+                <span class="cloth-quantity">1</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="family"
+                  name="family"
+                  value="yes"
+                />
+                <label for="family">Семейный</label>
+                <span class="cloth-quantity">34</span>
+              </div>
+            </div>
+            <div class="design-filter">
+              <div class="filter-title">Дизайн</div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="flowers"
+                  name="flowers"
+                  value="yes"
+                />
+                <label for="flowers">Цветы</label>
+                <span class="cloth-quantity">3</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="geometry"
+                  name="geometry"
+                  value="yes"
+                />
+                <label for="geometry">Геометрия</label>
+                <span class="cloth-quantity">9</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="abstraction"
+                  name="abstraction"
+                  value="yes"
+                />
+                <label for="abstraction">Абстракция</label>
+                <span class="cloth-quantity">1</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="animal"
+                  name="animal"
+                  value="yes"
+                />
+                <label for="animal">Animal</label>
+                <span class="cloth-quantity">34</span>
+              </div>
+            </div>
+            <div class="type-filter">
+              <div class="filter-title">Тип</div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="set"
+                  name="set"
+                  value="yes"
+                />
+                <label for="set">Комплект</label>
+                <span class="cloth-quantity">3</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="duvet-cover"
+                  name="duvet-cover"
+                  value="yes"
+                />
+                <label for="duvet-cover">Пододеяльник</label>
+                <span class="cloth-quantity">9</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="sheet"
+                  name="sheet"
+                  value="yes"
+                />
+                <label for="sheet">Простыня</label>
+                <span class="cloth-quantity">1</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox"
+                  id="pillowcase-set"
+                  name="pillowcase-set"
+                  value="yes"
+                />
+                <label for="pillowcase-set">Комплект наволочек</label>
+                <span class="cloth-quantity">34</span>
+              </div>
+            </div>
+            <div class="color-filter">
+              <div class="filter-title">Цвет</div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox-radio radio-white"
+                  id="white"
+                  name="white"
+                  value="yes"
+                />
+                <label for="white">Белый</label>
+                <span class="cloth-quantity">1</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox-radio radio-peach"
+                  id="peach"
+                  name="peach"
+                  value="yes"
+                />
+                <label for="peach">Персиковый</label>
+                <span class="cloth-quantity">1</span>
+              </div>              
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox-radio radio-sheet"
+                  id="sheet-2"
+                  name="sheet-2"
+                  value="yes"
+                />
+                <label for="sheet-2">Простыня</label>
+                <span class="cloth-quantity">1</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox-radio radio-yellow"
+                  id="yellow"
+                  name="yellow"
+                  value="yes"
+                />
+                <label for="yellow">Желтый</label>
+                <span class="cloth-quantity">34</span>
+              </div>
+              <div class="checkbox-group">
+                <input
+                  type="checkbox"
+                  class="custom-checkbox-radio radio-white-hover"
+                  id="white-hover"
+                  name="white-hover"
+                  value="yes"
+                />
+                <label for="white-hover">Белый ховер</label>
+                <span class="cloth-quantity">3</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-2">
-          <div class="side-filters"></div>
-        </div>
-
-
+      </div>
     </div>
   </body>
 </html>
